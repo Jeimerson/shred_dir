@@ -17,7 +17,7 @@ This C program provides an automated solution to securely delete all files withi
 ## Compilation:
 To compile the program, use the following command:
 ```bash
-gcc -o shred_dir shred_and_wipe_force.c
+gcc -o shred_dir shred_dir.c
 ```
 
 ## Usage:
@@ -48,7 +48,7 @@ Este programa em C oferece uma solução automatizada para excluir com seguranç
 ## Compilação:
 Para compilar o programa, use o seguinte comando:
 ```bash
-gcc -o shred_dir shred_and_wipe_force.c
+gcc -o shred_dir shred_dir.c
 ```
 
 ## Uso:

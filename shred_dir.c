@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    // Monta o comando find + shred
+    // Comando find + shred
     char command_shred[512];
     snprintf(command_shred, sizeof(command_shred),
              "find %s -type f -exec shred -n 5 -z -u -v {} \\;",
@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    // Monta o comando wipe para apagar o diretório
+    // Comando wipe para apagar o diretório
     char command_wipe[256];
     snprintf(command_wipe, sizeof(command_wipe), "wipe -r -f %s", argv[1]);
 

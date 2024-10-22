@@ -1,11 +1,13 @@
 ```md
 # Secure File and Directory Deletion Script
 
-This C program provides an automated solution to securely delete all files within a specified directory using the `shred` command and then recursively removes the directory itself using the `wipe` tool.
+This C program provides an automated solution to securely delete all files within a specified directory using the `shred` command and then
+recursively removes the directory itself using the `wipe` tool.
 
 ## How it works:
 1. **File deletion**: All files in the given directory are securely overwritten using `shred` with 5 passes, including zeroing out the file before deletion.
-2. **Directory removal**: Once all files are securely deleted, the `wipe` command is used with the `-r` (recursive) and `-f` (force) options to delete the directory without user confirmation.
+2. **Directory removal**: Once all files are securely deleted, the `wipe` command is used with the `-r` (recursive) and `-f` (force) options to delete the
+directory without user confirmation.
 
 ## Requirements:
 - **shred**: Ensure that `shred` is installed (available by default in most Linux distributions).
@@ -32,7 +34,8 @@ This process ensures that all files in the specified directory are securely over
 ```md
 # Script de Exclusão Segura de Arquivos e Diretórios
 
-Este programa em C oferece uma solução automatizada para excluir com segurança todos os arquivos dentro de um diretório especificado usando o comando `shred`, e depois remover recursivamente o próprio diretório utilizando a ferramenta `wipe`.
+Este programa em C oferece uma solução automatizada para excluir com segurança todos os arquivos dentro de um diretório especificado usando o comando `shred`, e depois remover
+recursivamente o próprio diretório utilizando a ferramenta `wipe`.
 
 ## Como funciona:
 1. **Exclusão de arquivos**: Todos os arquivos no diretório especificado são sobrescritos de forma segura usando o `shred` com 5 passagens, incluindo a sobrescrita com zeros antes da exclusão.

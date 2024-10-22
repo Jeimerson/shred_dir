@@ -17,13 +17,13 @@ This C program provides an automated solution to securely delete all files withi
 ## Compilation:
 To compile the program, use the following command:
 ```bash
-gcc -o shred_and_wipe_force shred_and_wipe_force.c
+gcc -o shred_dir shred_and_wipe_force.c
 ```
 
 ## Usage:
 Execute the program with the path to the directory you wish to securely delete:
 ```bash
-./shred_and_wipe_force /path/to/directory
+./shred_dir /path/to/directory
 ```
 
 This process ensures that all files in the specified directory are securely overwritten and removed, followed by the deletion of the directory itself, leaving no trace behind.
@@ -48,13 +48,13 @@ Este programa em C oferece uma solução automatizada para excluir com seguranç
 ## Compilação:
 Para compilar o programa, use o seguinte comando:
 ```bash
-gcc -o shred_and_wipe_force shred_and_wipe_force.c
+gcc -o shred_dir shred_and_wipe_force.c
 ```
 
 ## Uso:
 Execute o programa passando o caminho do diretório que deseja excluir com segurança:
 ```bash
-./shred_and_wipe_force /caminho/para/diretorio
+./shred_dir /caminho/para/diretorio
 ```
 
 Este processo garante que todos os arquivos no diretório especificado sejam sobrescritos e removidos de forma segura, seguidos pela exclusão do próprio diretório, sem deixar rastros.

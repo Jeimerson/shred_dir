@@ -29,7 +29,7 @@ Execute the program with the path to the directory you wish to securely delete:
 ```
 
 This process ensures that all files in the specified directory are securely overwritten and removed, followed by the deletion of the directory itself, leaving no trace behind.
-```
+
 
 # Script de Exclusão Segura de Arquivos e Diretórios
 

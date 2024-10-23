@@ -62,6 +62,6 @@ Este processo garante que todos os arquivos no diretório especificado sejam sob
 
 
 Disclaimer: This source code is provided "as is" without any warranties or guarantees. By using this code, you acknowledge that I, the author, am not responsible for any unintended consequences, including but not limited to the deletion of important or critical files, data loss, or system damage. It is the user's responsibility to understand the functionality of the code before executing it. Use this code at your own risk.
-Em Português:
+
 
 Aviso Legal: Este código-fonte é fornecido "como está", sem qualquer garantia ou responsabilidade. Ao utilizar este código, você reconhece que eu, o autor, não me responsabilizo por quaisquer consequências não intencionais, incluindo, mas não se limitando, à exclusão de arquivos importantes ou críticos, perda de dados ou danos ao sistema. É responsabilidade do usuário compreender o funcionamento do código antes de executá-lo. Use este código por sua conta e risco.

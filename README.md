@@ -1,4 +1,4 @@
-```md
+
 # Secure File and Directory Deletion Script
 
 This C program provides an automated solution to securely delete all files within a specified directory using the `shred` command and then
@@ -31,7 +31,6 @@ Execute the program with the path to the directory you wish to securely delete:
 This process ensures that all files in the specified directory are securely overwritten and removed, followed by the deletion of the directory itself, leaving no trace behind.
 ```
 
-```md
 # Script de Exclusão Segura de Arquivos e Diretórios
 
 Este programa em C oferece uma solução automatizada para excluir com segurança todos os arquivos dentro de um diretório especificado usando o comando `shred`, e depois remover

@@ -59,7 +59,7 @@ Execute o programa passando o caminho do diretório que deseja excluir com segur
 ./shred_dir /path/to/directory
 ```
 Este processo garante que todos os arquivos no diretório especificado sejam sobrescritos e removidos de forma segura, seguidos pela exclusão do próprio diretório, sem deixar rastros.
-```
+
 
 Disclaimer: This source code is provided "as is" without any warranties or guarantees. By using this code, you acknowledge that I, the author, am not responsible for any unintended consequences, including but not limited to the deletion of important or critical files, data loss, or system damage. It is the user's responsibility to understand the functionality of the code before executing it. Use this code at your own risk.
 Em Português:
